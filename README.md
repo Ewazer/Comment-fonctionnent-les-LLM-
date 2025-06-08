@@ -76,7 +76,8 @@ Chaque unité est ajoutée à une **liste de vocabulaire** **avec un identifiant
 
 Puis notre modèle est **prêt** à tokeniser. Le texte sera découpé en unités chaque unité dans le texte est remplacée par le numéro associé. 
 
-![[Tokenisation-illustration.png]]
+![Miro Image](https://miro.medium.com/v2/resize:fit:828/format:webp/1*gWP5Whykah1101EpYy17qQ.png)
+
 *Source Image : https://teetracker.medium.com/llm-fine-tuning-step-tokenizing-caebb280cfc2
 
 La question principale est donc comment allons-nous découper notre texte. Nous allons explorer les différentes approches qui s’offrent à nous.

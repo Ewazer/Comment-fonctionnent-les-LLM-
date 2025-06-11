@@ -484,18 +484,17 @@ sur      -> [0.42519636 0.        ]
 
 L'approche de la cooccurrence associée au concept de TF-IDF est une approche simple de l'embedding. Il y a une augmentation rapide du nombre de dimensions et les vecteurs sont creux, c'est-à-dire que la plupart des informations que contiennent les vecteurs sont des 0.
 
-### Bonus : Comment calculer le TF-IDF 
+Bonus : Comment calculer le TF-IDF 
 
 Le **TF-IDF** est le produit de **TF × IDF**.
-
 $$
 \text{TF-IDF}(t, d, D) = \text{TF}(t, d) \times \text{IDF}(t, D)
 $$
 Dans cette expression:
 
-- **t** représente un mots 
-- **d** représente le document
-- **D** représente l'ensemble du corpus
+- **$t$** représente un mots 
+- **$d$** représente le document
+- **$D$** représente l'ensemble du corpus
 
 La **term frequency** est calculé grâce à cette expression:
 $$
@@ -508,7 +507,29 @@ $$
 $$
 Dans cette expression:
 
-- **N** le nombre de documents dans le corpus
-- **$df(t)$** représente le nombre de documents dans lequels le mot t fait son apparition
+- **$N$** le nombre de documents dans le corpus
+- **$df(t)$** représente le nombre de documents dans lequel le mot $t$ fait son apparition
+
+## Les embeddings appris   
+
+Avec les **embeddings appris**, chaque **mot** se voit **attribuer** un vecteur **fixe** **lors de son apprentissage**.
+
+Il existe **deux méthodes d'apprentissage populaires**. 
+
+**CBOW (Continuous Bag of Words)**: CBOW cherche à prédire un mot cible à partir de son contexte textuel.
+
+**Skip-gram**: C'est l'inverse de CBOW, avec Skip-gram on cherche à prédire le contexte textuel d'un mot cible.
+
+Un des modèles d'embedding appris les plus populaires est le modèle **Word2Vec** développé par Google.
+
+### Les Inconvénients de cette approche
+
+On observe **deux inconvénients** principaux à cette approche.
+
+1. Cette approche ne gère pas le **polysémantisme**, le mot souris sera le même qu'il désigne l'animal ou le périphérique de l'ordinateur. 
+
+2. Avec cette approche la **taille du vocabulaire** est verrouillée, pas de *Out of Vocabulary*. 
+
+Nous ne rentrerons **pas plus dans les détails** car les embeddings appris ne sont pas les plus adaptés **pour les modèles de langage**. Néanmoins pour en savoir plus sur le fonctionnement je vous conseille cet [article](https://datascientest.com/nlp-word-embedding-word2vec)
 
 🚧En travaux 🚧

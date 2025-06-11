@@ -530,6 +530,6 @@ On observe **deux inconvénients** principaux à cette approche.
 
 2. Avec cette approche la **taille du vocabulaire** est verrouillée, pas de *Out of Vocabulary*. 
 
-Nous ne rentrerons **pas plus dans les détails** car les embeddings appris ne sont pas les plus adaptés **pour les modèles de langage**. Néanmoins pour en savoir plus sur le fonctionnement je vous conseille cet [article](https://datascientest.com/nlp-word-embedding-word2vec)
+Nous ne rentrerons **pas plus dans les détails** car les embeddings appris ne sont pas les plus adaptés **pour les modèles de langage**. Néanmoins pour en savoir plus sur le fonctionnement je vous conseille cet [article](https://datascientest.com/nlp-word-embedding-word2vec).
 
 🚧En travaux 🚧

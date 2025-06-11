@@ -2,9 +2,9 @@
 
 # Introduction
 
-Dans ce guide je vais essayer de vous faire comprendre de façon détaillée comment fonctionne le système GPT (**generative pre-trained transformer**) il en existe de plein de type qui ont des fonctions différentes (BioGPT (biomédecine) [ProGPT2](https://huggingface.co/nferruz/ProtGPT2), [ChatGPT](https://chatgpt.com/) (modèle général.) mais nous allons nous focaliser plutôt sur une architecture proche de GPT 2.
+Dans ce guide je vais essayer de vous faire comprendre de façon détaillée comment fonctionne le système GPT (**generative pre-trained transformer**) il en existe de plein de type qui ont des fonctions différentes (BioGPT (biomédecine) [ProGPT2](https://huggingface.co/nferruz/ProtGPT2), [ChatGPT](https://chatgpt.com/) (modèle général) mais nous allons nous focaliser plutôt sur une architecture proche de GPT 2.
 
-Le seul prérequis est de maitriser les bases de python et d’avoir déjà utilisé [ChatGPT](https://chatgpt.com/). L’idée de ce guide est d’être simple et détaillé à la fois en vulgarisant le moins possible.
+Le seul prérequis est d’avoir déjà utilisé [ChatGPT](https://chatgpt.com/). L’idée de ce guide est d’être simple et détaillé à la fois en vulgarisant le moins possible.
 
 # Les Datasets
 

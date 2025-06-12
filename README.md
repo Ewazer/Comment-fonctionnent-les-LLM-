@@ -487,9 +487,9 @@ L'approche de la cooccurrence associée au concept de TF-IDF est une approche si
 Bonus : Comment calculer le TF-IDF 
 
 Le **TF-IDF** est le produit de **TF × IDF**.
-$$
-\text{TF-IDF}(t, d, D) = \text{TF}(t, d) \times \text{IDF}(t, D)
-$$
+
+$\mathrm{TFIDF}(t, d, D) = \mathrm{TF}(t, d) \times \mathrm{IDF}(t, D)$
+
 Dans cette expression:
 
 - **$t$** représente un mots 
@@ -497,14 +497,13 @@ Dans cette expression:
 - **$D$** représente l'ensemble du corpus
 
 La **term frequency** est calculé grâce à cette expression:
-$$
-\text{TF}(t, d) = \frac{\text{nombre d'occurrences du terme } t \text{ dans le document } d}{\text{nombre total de mots dans le document } d}
-$$
+
+$\mathrm{TF}(t, d) = \frac{\text{Nombre d'occurrences du terme } t \text{ dans le document } d}{\text{Nombre total de mots dans le document } d}$
 
 L'**inverse document frequency** est calculé grâce à cette expression:
-$$
-\text{IDF}(t, D) = \log\left(\frac{N}{\text{$df$}(t)}\right)
-$$
+
+$\text{IDF}(t, D) = \log\left(\frac{N}{\text{df}(t)}\right)$
+
 Dans cette expression:
 
 - **$N$** le nombre de documents dans le corpus
